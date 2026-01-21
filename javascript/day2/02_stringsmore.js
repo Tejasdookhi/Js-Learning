@@ -40,5 +40,3 @@ console.log(mygithub.split('-'));//[ 'name', 'class', 'school' ] split in form o
 
 
 
-
-
