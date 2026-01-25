@@ -38,3 +38,5 @@ function handlearr(anyarr){
     return anyarr[1]
 }
 console.log(handlearr(arr));
+
+
