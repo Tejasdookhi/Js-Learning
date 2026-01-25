@@ -21,7 +21,19 @@ console.log(regulauser.fullname.username.first);
 
 
 const obj3 = {...regulauser, ...tinderuser}
-console.log(obj3);
+console.log(obj3);//...spread operator
+
+
+
+//destructuring object
+const destructobj = {
+    name : "tejas",
+    id : 123,
+}
+
+const {name :myname , id :  myid , age:myage = 18} = destructobj//also we can rename them
+console.log(myname,myid,myage);//tejas 123 18
+
 
 
 
