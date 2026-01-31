@@ -4,7 +4,7 @@ const myNum = [1, 2, 3, 4, 5];
 const newMuns = myNum.reduce((acc, items) => {
   console.log(`acc is ${acc} and value is ${items}`);
   return acc + items;
-}, 0);
+}, 0);//15
 console.log(newMuns);
 
 const shoppingCart = [
