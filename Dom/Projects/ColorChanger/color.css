@@ -1,0 +1,62 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page layout */
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.canva {
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Color buttons */
+.buttons {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+
+/* Individual colors */
+#yellow {
+  background-color: yellow;
+}
+
+#green {
+  background-color: green;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#white {
+  background-color: white;
+}
+
+/* Instruction text */
+h2 {
+  margin-top: 25px;
+  font-size: 18px;
+}
